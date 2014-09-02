@@ -42,8 +42,6 @@ var FontDetetor = function () {
     }
 
     var detect = function (font) {
-        var detected = false;
-
         for (var i = 0, baseFont = ''; baseFont = baseFonts[i]; i++) {
             // 设置需要检测的字体，如果不存在此字体将会走后面的默认字体
             oTextSpan.style.fontFamily = font + ',' + baseFont;
@@ -56,7 +54,7 @@ var FontDetetor = function () {
             if (matched) return true;
         }
 
-        return detected;
+        return false;
     }
 
     this.detect = detect;
