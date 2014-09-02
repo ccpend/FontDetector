@@ -4,7 +4,7 @@
 *
 * @author LiuNing <749416752@qq.com>
 * @site http://www.usejs.com/
-* @version 1.0
+* @version 1.1
 *********************************************/
 
 var FontDetetor = function () {
