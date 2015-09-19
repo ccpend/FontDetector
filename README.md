@@ -1,5 +1,5 @@
 <h2>FontDetetor</h2>
-<p>JavaScript 浏览器字体支持检测</p>
+<p>浏览器字体支持检测</p>
 <h3>使用方法：</h3>
 <pre>
   window.onload = function () {
